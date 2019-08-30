@@ -62,12 +62,24 @@ body {
     font-weight: 700;
 }
 
-.page-container > .extra-information > .food-information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #cea135;
-    align-items: center;
+.page-container > .extra-information > .food-information > .top-section {
+    display: flex;
     justify-content: space-between;
+}
+
+.page-container > .extra-information > .food-information > .bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+.page-container > .extra-information > .food-information > .top-section > .shakeDes, .bunDes {
+    background-color: #cea135;
+    width: 450px;
+    text-align: center;
+}
+
+.page-container > .extra-information  > .food-information > .bottom-section > .beefDes, .potatoDes {
+    background-color: #cea135;
+    width: 450px;
+    text-align: center;
     margin-top: 25px;
-    padding: 10px;
 }

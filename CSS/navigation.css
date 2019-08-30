@@ -1,0 +1,40 @@
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(50, 50, 50, 0.5);
+    padding: 10px 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-bar > .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar > .left-side img {
+    margin-left: 20px;
+    filter: saturate(130%);
+}
+
+.navigation-bar > .right-side > .link {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+}
+
+.navigation-bar > .right-side > .link a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s all;
+    color: #e3d342;
+}
+
+.navigation-bar > .right-side > .link a:hover {
+    color: #cbcbcb;
+    letter-spacing: 1px;
+}

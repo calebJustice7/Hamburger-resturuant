@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../IMAGES/kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.53);
+    letter-spacing: 2px;
+    background-color: #cea135;
+    height: 110px;
+    padding-top: 33px;
+    color: white;
+}
+
+.page-container > .main-content-header h1 {
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #cea135;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.75);
+    margin-top: 45px;
+
+}
+
+.page-container > .body {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-container > .body > .box1, .box2 {
+    background-color: #cea135;
+    width: 450px;
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.page-container > .extra-information > .header{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.53);
+    font-weight: 700;
+}
+
+.page-container > .extra-information > .food-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #cea135;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 10px;
+}

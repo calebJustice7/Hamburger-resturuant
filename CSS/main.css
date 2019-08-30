@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../IMAGES/burger-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.53);
+}
+
+.page-container > .top-text {
+    color: white;
+    width: 58%;
+}
+
+.page-container > .main-text {
+    color: white;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.page-container h1 {
+    padding: 10px 22px;
+}
+
+.top-text, .main-text {
+    background-color: #cea135;
+    border-radius: 5px;
+}
+
+.page-container > .bottom-text {
+    color: white;
+    margin-top: 330px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+}
+
+.page-container > .bottom-text a {
+    text-decoration: none;
+    color: #cea135;
+    transition: 0.5s all;
+}
+
+.page-container > .bottom-text a:hover {
+    color: #e3d342;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.footer {
+    background-color: #cea135;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+

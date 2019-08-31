@@ -10,6 +10,11 @@
     margin-right: auto;
 }
 
+.navigation-bar > .left-side > .open-page {
+    color: #e3d342;
+    font-size: 1.4rem;
+}
+
 .navigation-bar > .right-side {
     display: flex;
     align-items: center;

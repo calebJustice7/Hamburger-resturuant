@@ -7,7 +7,9 @@ body {
     background-attachment: fixed;
 }
 .menu-wrapper {
-    background-color: #dcdcdc;
+    background-color: #cea135;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 40%;
     margin: 50px auto;
     padding: 20px 50px;
@@ -16,7 +18,7 @@ body {
 
 .menu-wrapper .header {
 text-align: center;
-border-bottom: 4px solid white;
+border-bottom: 4px solid black;
 border-radius: 10px;
 }
 
@@ -32,7 +34,7 @@ border-radius: 10px;
 }
 
 .menu-wrapper > .food > .food-items:nth-of-type(even) {
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .menu-wrapper > .food > .food-items h3 {

@@ -9,7 +9,7 @@ body {
 
 .page-container {
     width: 90%;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
     padding-top: 25px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.53);
@@ -28,6 +28,7 @@ body {
 
 .page-container h1 {
     padding: 10px 22px;
+    width: 100%;
 }
 
 .top-text, .main-text {
@@ -59,7 +60,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 10%;
     padding-top: 20px;
     text-align: center;
     border-radius: 10px;

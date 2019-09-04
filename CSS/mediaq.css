@@ -1,4 +1,8 @@
 @media(max-width:600px) {
+
+    /* navigation bar styles */
+
+
     .navigation-bar {
         flex-direction: column;
         width: 100%;
@@ -19,15 +23,32 @@
         width: 100%;
         padding: 0;
     }
+
+    /* Home Page Styles */
+
+
+    .page-container {
+        text-align: center;
+    }
     .page-container > .top-text {
         margin: 0 auto; 
         text-align: center;
+        width: 70%;
+        padding: 0;
     }
     .page-container > .main-text {
         margin: 0 auto;
-        width: 60%;
+        width: 70%;
         text-align: center;
+        padding: 0;
     }
+    .page-container h1 {
+        padding: 0;
+    }
+
+    /* Menu Page Styles */
+
+
     .menu-wrapper img {
         width: 90%;
     }
@@ -36,5 +57,27 @@
     }
     .menu-wrapper > .food > .food-items:nth-of-type(even) {
         margin: 0px;
+    }
+
+    /* About us page styles */
+
+
+    .page-container > .body {
+        flex-direction: column;
+        width: 100%;
+    }
+    .page-container > .body > .box1, .box2 {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .page-container > .extra-information > .food-information > .top-section, .bottom-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .beefDes, .potatoDes, .shakeDes{
+        margin: 20px auto;
     }
 }
